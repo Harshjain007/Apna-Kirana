@@ -1,0 +1,102 @@
+
+/*Orange colour: #FFA518
+Blue Color: #5382A1
+orange:#fff8e1
+orange java: #FFA518
+Blue java: #5382A1
+*/
+
+.custome-bg-nav{
+    background: #5382A1;
+}
+
+.custom-bg{
+    background: #FFA518!important;
+     
+}
+.custom-bg-blue{
+    background: #5382A1!important;
+     
+}
+
+.custom-bg-anchor{
+    background: #5382A1!important;
+    border-color: #fff8e1!important;
+}
+
+.admin .card{
+    
+    border: 2px solid #fff8e1;
+    
+}
+
+.admin .card:hover{
+    
+    background: #fff8e1;
+    cursor: pointer;
+    
+}
+
+
+.product-card:hover{
+    
+    background: #fff8e1;
+    cursor: pointer;
+}
+
+/*CSS for toast*/
+
+#toast {
+    min-width: 300px;
+    position: fixed;
+    bottom: 30px;
+    left: 50%;
+    margin-left: -120px;
+    background: #333;
+    padding: 15px;
+    color: white;
+    text-align: center;
+    z-index: 1;
+    font-size: 18px;
+    visibility: hidden;
+    box-shadow: 0px 0px 100px #000;
+}
+
+#toast.display {
+    visibility: visible;
+    animation: fadeIn 0.5s, fadeOut 0.5s 2.5s;
+}
+
+@keyframes fadeIn{
+    from{
+        bottom: 0;
+        opacity: 0;
+    }
+    
+    to{
+        bottom: 30px;
+        opacity: 1;
+    }
+}
+@keyframes fadeOut{
+    from{
+        bottom: 30px;
+        opacity: 1;
+    }
+    
+    to{
+        bottom: 0;
+        opacity: 0;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
